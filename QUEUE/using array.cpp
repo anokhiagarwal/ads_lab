@@ -84,13 +84,16 @@ int main(){
                 info=Q.dequeue();
                 if(info!=-1)
                     cout<<"\nDeleted element is: "<<info;
+                    cout<<"Front="<<Q.front<<"Rear="<<Q.rear;
                 break;
             case 3:
                 Q.display();
+                cout<<"Front="<<Q.front<<"Rear="<<Q.rear;
                 break;
             case 4:
                 if(Q.isEmpty())
                     cout<<"\nQueue is empty";
+                    cout<<"Front="<<Q.front<<"Rear="<<Q.rear;
                 else
                     cout<<"\nQueue is not empty";
                 break;
